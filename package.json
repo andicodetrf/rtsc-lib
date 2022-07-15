@@ -8,12 +8,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf /dist && npm run build:esm && npm run build:cjs",
+    "build": "webpack --mode=production",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build-wp": "webpack --mode=production"
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Andrea Lau",
@@ -44,6 +43,8 @@
     "webpack-cli": "^4.10.0"
   },
   "peerDependencies": {
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

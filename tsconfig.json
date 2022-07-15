@@ -10,7 +10,9 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-  }
+  },
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./**/*.d.ts"],
+  "exclude": ["**/node_modules/**", "**/__tests__/**", "**/*.test.ts",  "**/*.test.tsx"],
 }
 // {
 //   "compilerOptions": {
