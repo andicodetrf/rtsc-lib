@@ -5,9 +5,9 @@ export default {
   component: SCButton
 }
 
-const Template = (args) => ({
-  //👇 Your template goes here
-});
+// const Template = (args) => ({
+//   //👇 Your template goes here
+// });
 
 // const SCButtonDemo = Template.bind({});
 
@@ -17,7 +17,6 @@ const Template = (args) => ({
 
 export const SCBtn = {
   args: {
-    // variant: 'primary',
-    // children: 'Hello'
+    appData: "Data from App"
   },
 };

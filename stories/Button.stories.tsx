@@ -5,17 +5,17 @@ export default {
   component: Button
 }
 
-const Template = (args) => ({
-  //👇 Your template goes here
-});
+// const Template = (args) => ({
+//   //👇 Your template goes here
+// });
 
-const PrimaryButton = Template.bind({});
+// const PrimaryButton = Template.bind({});
 
-PrimaryButton.args = {
-  variant: 'primary',
-};
+// PrimaryButton.args = {
+//   variant: 'primary',
+// };
 
-export const Primary = {
+export const PrimaryComponent = {
   args: {
     variant: 'primary',
     children: 'Hello'
