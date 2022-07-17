@@ -1,5 +1,5 @@
 {
-  "name": "rtsc-lib",
+  "name": "@anditrfcode/rtsc-lib",
   "version": "1.0.0",
   "description": "react-ts-library",
   "main": "dist/index.js",
@@ -12,7 +12,8 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "Andrea Lau",
